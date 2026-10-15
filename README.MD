@@ -133,7 +133,7 @@ pom.xml文件写入以下坐标即可:
       User selectByMobile(@CryptField @Param("mobile") String mobile);
 
 _附上快速开始的demo地址：
-https://github.com/kamjin1996/cryptdemo
+https://github.com/kamjin3086/cryptdemo
 
 ### 特别说明：
 1.不支持mybatis逆向生成的example类（用于条件拼接查询）。 即使example类作为条件查询的入参，如果项目中有用到example的地方，又希望加密条件中的字段，那么改为实体类的形式进行条件查询即可
